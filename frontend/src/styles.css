@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Garde ton fond ici seulement */
+body {
+  background-image: url('assets/img/accueil.jpg');
+  background-size: cover;       
+  background-position: center; 
+  background-repeat: no-repeat; 
+}

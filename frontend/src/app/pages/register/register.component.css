@@ -1,0 +1,80 @@
+.form-center {
+  flex: 1; /* Prend tout l'espace vertical restant */
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Centre horizontalement */
+  justify-content: center;/* Centre verticalement */
+  width: 100%;
+}
+
+form {
+  background: #fff;
+  padding: 40px 30px 26px 30px;
+  border-radius: 22px;
+  box-shadow: 0 8px 36px rgba(110, 78, 255, 0.09), 0 2px 8px rgba(33, 68, 122, 0.10);
+  display: flex;
+  flex-direction: column;
+  min-width: 330px;
+  max-width: 420px;
+}
+
+mat-form-field.full-width {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+mat-form-field {
+  font-size: 1.08rem;
+}
+
+mat-label {
+  font-weight: 500;
+  color: #532e81;
+  letter-spacing: 0.4px;
+}
+
+button[type="submit"] {
+  margin-top: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  box-shadow: 0 1.5px 4px rgba(110, 78, 255, 0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: #683fad;
+  color: #fff;
+}
+
+.error-message {
+  color: #b71c1c;
+  font-weight: 500;
+  margin-top: 18px;
+  text-align: center;
+  background: #fff0f0;
+  border-radius: 9px;
+  padding: 8px 12px;
+}
+
+@media (max-width: 600px) {
+  form {
+    min-width: unset;
+    max-width: 97vw;
+    padding: 22px 2vw;
+  }
+}
+
+.login-footer a {
+  color: #5d39c8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.18s;
+}
+.login-footer a:hover {
+  color: #9d53ef;
+  text-decoration: underline;
+  cursor: pointer;
+}
