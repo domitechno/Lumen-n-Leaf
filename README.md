@@ -16,8 +16,7 @@ Nothing makes me happier than talking about a book that touched me with a friend
 The problem we are facing is the loss of taste for reading and interest in small authors. Currently, it is difficult to be able to promote one’s projects without any budget or notoriety, which hinders the good development of an author. 
 My platform will allow users to build their own online library and thus contribute to a collective base. Mine adds the fact of being able to add randomly referenced books published by an author by clicking on an add button to their personal collection, in order not to create favouritism among authors. And in the way of watching a trailer before being sure and certain to buy one’s ticket in order to see it entirely in the cinema or test the demo before the complete purchase of a video game, the users will have the opportunity to read a premise of the author’s work by clicking on his card. He will also be able to click on the author’s link to see the personal biography that he himself will have written. Thus the author has a much better chance of reaching his audience, and users to discover works they were unaware of by pushing them to click on a button to unlock all the author’s works.
 
-# ![MuaKissGIF](https://github.com/user-attachments/assets/9370fd11-6f40-4efa-bf7d-2340db305b24)
-Technology Stack
+# 🦫 Technology Stack
 
 # 📊 What did I learn ?
 
