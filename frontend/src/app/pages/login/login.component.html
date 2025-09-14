@@ -1,0 +1,34 @@
+<div id="container">
+  <div class=""login-block>
+<form [formGroup]="loginFormGroup" (ngSubmit)="login()">
+  <mat-form-field appearance="fill" class="full-width">
+    <mat-label>Username</mat-label>
+    <input matInput formControlName="username" autocomplete="username" />
+    <mat-error *ngIf="loginFormGroup.get('username')?.hasError('required')">
+      an id is required
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="full-width">
+    <mat-label>Password</mat-label>
+    <input matInput type="password" formControlName="password" autocomplete="current-password" />
+    <mat-error *ngIf="loginFormGroup.get('password')?.hasError('required')">
+      a password is required
+    </mat-error>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="loginFormGroup.invalid">
+    To log-in
+  </button>
+
+  <div *ngIf="invalidCredentials" class="error-message">
+    Your id or password is wrong
+  </div>
+</form>
+
+<div class="login-footer">
+  <span>Don't have an account?</span>
+  <a routerLink="/register">Create your account</a>
+</div>
+</div>
+</div>
