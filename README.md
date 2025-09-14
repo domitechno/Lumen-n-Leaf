@@ -17,7 +17,9 @@ The problem we are facing is the loss of taste for reading and interest in small
 My platform will allow users to build their own online library and thus contribute to a collective base. Mine adds the fact of being able to add randomly referenced books published by an author by clicking on an add button to their personal collection, in order not to create favouritism among authors. And in the way of watching a trailer before being sure and certain to buy one’s ticket in order to see it entirely in the cinema or test the demo before the complete purchase of a video game, the users will have the opportunity to read a premise of the author’s work by clicking on his card. He will also be able to click on the author’s link to see the personal biography that he himself will have written. Thus the author has a much better chance of reaching his audience, and users to discover works they were unaware of by pushing them to click on a button to unlock all the author’s works.
 
 # 🦫 Technology Stack
-![Screenshot de l'app](assets/screen.png)
+
+<img width="1532" height="921" alt="screen" src="https://github.com/user-attachments/assets/50fa6ae4-7599-40ee-acb8-e9e0e00d2eed"/>
+
 
 # 📊 What did I learn ?
 
