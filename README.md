@@ -4,7 +4,7 @@
 
 Lumen & Leaf present itself as an application avaible on a desktop or a smartphone. This project revolves around my experience as an apprentice developer whose outcome is the completion of a personal project to develop a Participatory Virtual Library Online.
 
-"Lumen&Leaf" bridges the gap between authors and readers by delivering a platform where unknow writes can post their creation under the form of card and reader can drop a book to add to his collection in a fancy way with the "Randomizer" function.
+This is my second project that I created to present at school. "Lumen&Leaf" bridges the gap between authors and readers by delivering a platform where unknow writes can post their creation under the form of card and reader can drop a book to add to his collection in a fancy way with the "Randomizer" function.
 
 That is a whole system, a Node.js backend application that implements a content management platform with dual-database architecture. The system provides REST APIs for managing books, categories, collections, genres, and user authentication, with file upload capabilities and JWT-based security.
 
@@ -18,12 +18,14 @@ My platform will allow users to build their own online library and thus contribu
 
 # 🦫 Technology Stack
 
-<img width="1532" height="921" alt="screen" src="https://github.com/user-attachments/assets/50fa6ae4-7599-40ee-acb8-e9e0e00d2eed"/>
-
+Languages used : Tyoescript, CSS, HTML and Javascript.
+Environnement : Node.js
+Framework : Angular / Express.js
+Database : MongoDB & MySQL
 
 # 📊 What did I learn ?
 
-I learn how to build a website from scratch with an authentication token and users gestion.
+I learn how to build a website from scratch, with an authentication token and users gestion from 2 different database. 
 
 # 🔍 Upcoming updates ?
 
